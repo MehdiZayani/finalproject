@@ -1,0 +1,42 @@
+.cards{
+  display: flex;
+  flex-direction: column;
+
+}
+.imagee{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.category {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.75rem 0;
+  background: transparent;
+  text-transform: uppercase;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: black;
+  color: white;
+}
+.carde{
+  height: 550px;
+  width: 500px;
+}

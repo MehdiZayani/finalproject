@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.links {
+  display: flex;
+}
+
+.navlink {
+  list-style: none;
+  margin: 0 0.75rem;
+  text-transform: uppercase;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: black;
+}
+
+.navlink a:hover {
+  color: #f9826c;
+}
